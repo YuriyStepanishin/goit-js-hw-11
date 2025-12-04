@@ -44,9 +44,9 @@ export function createGallery(images) {
 export function clearGallery() {
   galleryEl.innerHTML = '';
 }
-export function showLoader() {
-  loaderEl.classList.remove('hidden');
-}
 export function hideLoader() {
   loaderEl.classList.add('hidden');
+}
+export function showLoader() {
+  loaderEl.classList.remove('hidden');
 }

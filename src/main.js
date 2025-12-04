@@ -24,9 +24,8 @@ function handleSubmit(e) {
     });
     return;
   }
-
-  clearGallery();
   showLoader();
+  clearGallery();
 
   getImagesByQuery(searchImage)
     .then(data => {
